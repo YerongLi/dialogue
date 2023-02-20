@@ -13,7 +13,7 @@ def generate(instruction, knowledge, dialog):
 # Instruction for a chitchat task
 instruction = f'Instruction: given a dialog context, you need to response empathically.'
 # Leave the knowldge empty
-knowledge = 'This is a test'
+knowledge = ''
 dialog = [
     'Does money buy happiness?',
     'It is a question. Money buys you a lot of things, but not enough to buy happiness.',
